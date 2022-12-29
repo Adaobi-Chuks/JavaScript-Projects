@@ -10,11 +10,11 @@ function handleFormSubmit(event) {
 }
 
 function checkComplete() {
-    this.parentElement.classList.toggle('completed');
+  this.parentElement.classList.toggle('completed');
 }
 
 function removeItem() {
-    this.parentElement.remove();
+  this.parentElement.remove();
 }
 
 function addToDo(text) {
