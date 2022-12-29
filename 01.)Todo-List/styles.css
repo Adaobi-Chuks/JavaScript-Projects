@@ -37,6 +37,7 @@ input[type="text"] {
 
 ul {
     width: 500px;
+    max-width: 70%;
     margin: 40px auto;
     padding: 20px;
     border: 3px solid #000;
@@ -54,7 +55,7 @@ li {
 
 li.completed {
     text-decoration: line-through;
-    color: #ccc;
+    color: grey;
 }
 
 .todo-text {
