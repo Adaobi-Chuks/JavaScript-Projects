@@ -9,14 +9,6 @@ function handleFormSubmit(event) {
   event.target.elements.todo.value = "";
 }
 
-function checkComplete() {
-  this.parentElement.classList.toggle('completed');
-}
-
-function removeItem() {
-  this.parentElement.remove();
-}
-
 function addToDo(text) {
   const li = document.createElement("li");
   const checkbox = document.createElement("input");
@@ -33,6 +25,14 @@ function addToDo(text) {
   li.appendChild(span);
   li.appendChild(button);
   document.querySelector(".todo-list").appendChild(li);
+}
+
+function checkComplete() {
+  this.parentElement.classList.toggle('completed');
+}
+
+function removeItem() {
+  this.parentElement.remove();
 }
 
 document.querySelector("form").addEventListener("submit", handleFormSubmit);
