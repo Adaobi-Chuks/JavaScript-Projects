@@ -37,6 +37,7 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 7px 10px 3px;
     cursor: pointer;
+    margin: 1px;
 }
 
 #decrease {
