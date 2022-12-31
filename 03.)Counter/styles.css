@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins.ttf");
+}
+
+body {
+    background-image: url("image/image.jpg");
+    margin: auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    color: #ccc;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    margin: 40px auto;
+    height: 600px;
+    box-shadow: 0 7px 10px 5px;
+}
+
+#count {
+    margin-top: 90px;
+    font-size: 200px;
+}
+
+.sm-box {
+    padding: 5px 20px;
+    display: inline;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 7px 10px 3px;
+}
+
+#decrease {
+    background-color: red;
+    margin-right: 10px;
+}
+
+#increase {
+    background-color: green;
+    margin-left: 10px;
+}
