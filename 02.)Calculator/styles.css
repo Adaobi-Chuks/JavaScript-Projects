@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins.ttf');
+}
+
+body {
+    background-color: #212121;
+    font-family: "Poppins";
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: #d3d3d354;
+    color: #212121;
+    padding: 1px 20px;
+    margin: 10px 300px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+#question, #answer {
+    height: 30px;
+    margin: 10px;
+    background-color: #d3d3d3f1;
+    color: #212121;
+    border: 3px solid #2e2d2db9;
+    border-radius: 6px;
+    width: 50%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: 8%;
+}
+
+#buttons {
+    border: 3px solid rgba(14, 13, 13, 0.562);
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #2c2b2b;
+    color: #d3d3d3f1;
+    border: 0;
+    box-shadow: 5px 5px 13px -10px;
+}
+
+.button-row {
+    padding-bottom: 5px;
+}
