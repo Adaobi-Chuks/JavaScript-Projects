@@ -39,6 +39,14 @@ function getRGBValue (rgb) {
     return `rgb(${rgb["red"]}, ${rgb["green"]}, ${rgb["blue"]})`
 }
 
+function rbgToHex (rgb) {
+    const matches = rgb.match(/\d+/g);
+    const r = parseInt(matches[0]);
+    const g = parseInt(matches[1]);
+    const b = parseInt(matches[2]);
+    return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+}
+
 function hexIsValid(hex) {
     if (hex[0] !== "#") {
         return false;
@@ -51,6 +59,23 @@ function hexIsValid(hex) {
         }
     }
     return true;
+}
+
+function clickToCopy (event) {
+    const element = event.currentTarget;
+    const text = element.textContent;
+    const textarea = document.createElement("textarea");
+    textarea.textContent = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    try {
+        document.execCommand("copy");
+        alert("copied");
+    } catch (error) {
+        console.log("Oops, unable to copy");
+    } finally {
+        document.body.removeChild(textarea);
+    }
 }
 
 generate.addEventListener("click", () => {
@@ -88,3 +113,8 @@ form.addEventListener("submit", (event) => {
     }
     input.value = "";
 });
+
+hex1.addEventListener("click", clickToCopy);
+hex2.addEventListener("click", clickToCopy);
+rgb1.addEventListener("click", clickToCopy);
+rgb2.addEventListener("click", clickToCopy);
