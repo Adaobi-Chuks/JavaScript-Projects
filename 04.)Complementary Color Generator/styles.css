@@ -25,11 +25,11 @@ body {
 }
 
 #color1 {
-    background-color: #800080;
+    background-color: #484433;
 }
 
 #color2 {
-    background-color: #ffff00;
+    background-color: #b7bbcc;
 }
 
 h2 {
@@ -50,8 +50,9 @@ h2 {
     border: 3px solid white;
     border-radius: 8px;
     position: relative;
-    width: 100px;
+    width: max-content;
     height: 20px;
+    padding: 0 5px 3px 5px;
     margin: 10px auto;
     top: 58%;
 }
