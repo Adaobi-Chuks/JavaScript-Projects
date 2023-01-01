@@ -9,22 +9,20 @@
 </head>
 <body>
     <main>
-        <div id="container">
-            <div id="color1"></div>
-            <div id="color2"></div>
-        </div>
-        <h1 id="title"></h1>
-        <section>
-            <div>
+        <section class="container">
+            <div id="color1" class="color">
                 <div id="rgb1"></div>
                 <div id="hex1"></div>
             </div>
-            <div>
+            <div id="color2" class="color">
                 <div id="rgb2"></div>
                 <div id="hex2"></div>
             </div>
+        </section>
+        <h2>Complementary Color Generator</h2>
+        <section class="input">
             <input type="text" name="color" id="input" placeholder="Enter the color's hexcode">
-            <button type="submit"></button>
+            <button type="submit">Generate</button>
         </section>
     </main>
     <script src="script.js"></script>
