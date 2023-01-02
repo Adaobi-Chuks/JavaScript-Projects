@@ -9,18 +9,35 @@
 </head>
 <body>
     <main>
-        <h3>RESET</h3>
-        <div>
-            You<div id="ur-score"></div>:<div id="bot-score"></div>Bot
+        <h1>ROCK PAPER SCISSORS</h1>
+        <h2>Let's play</h2>
+        <h4 class="refresh">REFRESH</h4>
+        <div class="con">
+            <span class="text">You</span>
+            <span class="score">
+                <span id="ur-score">0</span>
+                <span>:</span>
+                <span id="bot-score">0</span>
+            </span>
+            <span class="text">Bot</span>
+        </div>
+        <div class="image-con">
+            <figure>
+                <img src="image/rock.png" alt="rock" class="image">
+                <figcaption>Rock</figcaption>
+            </figure>
+            <figure>
+                <img src="image/paper.png" alt="rock" class="image">
+                <figcaption>Paper</figcaption>
+            </figure>
+            <figure>
+                <img src="image/scissors.png" alt="rock" class="image">
+                <figcaption>Scissors</figcaption>
+            </figure>
         </div>
         <div>
-            <img src="" alt="rock">
-            <img src="" alt="paper">
-            <img src="" alt="scissors">
-        </div>
-        <div>
-            <h2 id="result"></h2>
-            <h3 id="description"></h3>
+            <p id="result">YOU WON</p>
+            <p id="description">Computer made paper</p>
         </div>
     </main>
     <script src="script.js"></script>
