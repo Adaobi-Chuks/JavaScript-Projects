@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-    font-family: cursive;
+    font-family: bradley;
 }
 
 .image {
@@ -67,11 +67,11 @@ figure {
 }
 
 .refresh {
-    font-family: cursive;
     display: flex;
     justify-content: right;
     margin-right: 15%;
     cursor: pointer;
+    font-size: 18px;
 }
 
 #result {
