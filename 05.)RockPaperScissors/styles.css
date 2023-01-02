@@ -15,7 +15,7 @@ h1 {
     color: #b8f7df;
     border: 5px solid;
     border-radius: 10px;
-    width: max-content;
+    width: fit-content;
     margin: auto;
     margin-top: 20px;
     padding: 0 10px;
@@ -66,7 +66,7 @@ figure {
     margin: 16px;
 }
 
-.refresh {
+#refresh {
     display: flex;
     justify-content: right;
     margin-right: 15%;
