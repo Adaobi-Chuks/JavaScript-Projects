@@ -25,7 +25,7 @@ h1 {
     border-radius: 10px;
     background-color: #eef9fc;
     margin: auto;
-    width: 500px;
+    max-width: 650px;
     position: relative;
 }
 
@@ -40,6 +40,7 @@ h1 {
     text-align: right;
     margin-right: 15px;
     margin-bottom: 10px;
+    font-family: cursive;
 }
 
 .share-con {
