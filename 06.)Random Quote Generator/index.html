@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Random Quote Generator</title>
 </head>
 <body>
@@ -11,15 +12,18 @@
         <h1>Random Quote Generator</h1>
     </header>
     <main class="container">
-        <div id="quote"></div>
-        <span id="author"></span>
-        <div>
-            <button class="button" id="instagram"><img src="" alt=""></button>
-            <button class="button" id="whatsapp"><img src="" alt=""></button>
-            <button class="button" id="twitter"><img src="" alt=""></button>
-            <button class="button" id="copy"><img src="" alt=""></button>
+        <section>
+            <img src="images/left-quote.png" alt="">
+            <div id="quote">Once bitten twice shine, make hay while the shine.</div>
+            <img src="images/right-quote.png" alt="">
+        </section>
+        <span id="author">-By Sahid Ahmed</span>
+        <div class="share-con">
+            <button class="share" id="instagram"><img src="images/instagram.png" alt=""></button>
+            <button class="share" id="whatsapp"><img src="images/whatsapp.png" alt=""></button>
+            <button class="share" id="twitter"><img src="images/twitter.png" alt=""></button>
+            <button class="share" id="copy"><img src="images/copy.png" alt=""></button>        <button id="generate">Generate</button>
         </div>
-        <button id="generate">Generate</button>
     </main>
     <footer>
         <span>made by Jessie</span>

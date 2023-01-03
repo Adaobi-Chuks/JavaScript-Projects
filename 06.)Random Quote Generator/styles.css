@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("font/Poppins.ttf");
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #1d3036;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #28434b;
+    border: 3px solid #90b0b9;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 50px auto;
+    padding: 0 10px;
+    color: #90b0b9;
+}
+
+.container {
+    border: 3px solid #28434b;
+    border-radius: 10px;
+    background-color: #eef9fc;
+    margin: auto;
+    width: 500px;
+    position: relative;
+}
+
+#quote {
+    display: inline;
+    width: 100%;
+    font-size: 30px;
+}
+
+#author {
+    display: block;
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.share-con {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.share {
+    padding: 3px 5px 2px 5px;
+    margin: 5px;
+    background-color: #90b0b9;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+section {
+    min-height: 80px;
+    margin: 5px;
+    margin-bottom: 5px;
+}
+
+#generate {
+    color: #192a30;
+    background-color: #90b0b9;
+    border: 2px solid #28434b;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    margin: 10px 30px 0 0;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 50px;
+    color: #375a64;
+}
